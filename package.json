@@ -1,0 +1,44 @@
+{
+  "name": "head-space",
+  "version": "0.0.0",
+  "description": "command line tool to track which satellites are above you at any given moment",
+  "main": "dist/index.js",
+  "bin": {
+    "head-space": "bin/head-space.js",
+    "hspace": "bin/head-space.js"
+  },
+  "files": [
+    "/dist",
+    "CHANGELOG.md",
+    "README.md"
+  ],
+  "homepage": "https://github.com/wmunsell/head-space#readme",
+  "bugs": {
+    "url": "https://github.com/wmunsell/head-space/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wmunsell/head-space.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.3.1",
+    "@typescript-eslint/parser": "^5.3.1",
+    "eslint": "^7.32.0",
+    "eslint-config-standard": "^16.0.3",
+    "eslint-plugin-import": "^2.25.3",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^5.1.1",
+    "jest": "^27.3.1",
+    "typescript": "^4.4.4"
+  },
+  "dependencies": {
+    "@types/node": "^16.11.7",
+    "tsconfigs": "^5.0.0"
+  }
+}
