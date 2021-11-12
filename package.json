@@ -24,6 +24,7 @@
   "license": "MIT",
   "scripts": {
     "build": "tsc",
+    "dev": "tsc -w",
     "test": "jest"
   },
   "devDependencies": {
@@ -39,6 +40,7 @@
   },
   "dependencies": {
     "@types/node": "^16.11.7",
+    "commander": "^8.3.0",
     "tsconfigs": "^5.0.0"
   }
 }

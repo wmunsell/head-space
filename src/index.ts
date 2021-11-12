@@ -1,3 +1,13 @@
-console.log("hello world");
+import { program } from "commander";
 
-asdflj={asdf};
+export = (args: string[]) => {
+  program
+    .command("run")
+    .description("Runs the program")
+    .action((run) => {
+      console.log("Running the program")
+    })
+
+  program.parse();
+}
+
